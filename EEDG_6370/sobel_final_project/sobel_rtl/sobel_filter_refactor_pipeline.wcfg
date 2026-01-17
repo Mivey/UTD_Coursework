@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sobel_filter_refactor.wdb" id="1">
+         <top_modules>
+            <top_module name="sobel_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="6,482.413 ns"></ZoomEndTime>
+      <Cursor1Time time="6,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject type="logic" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/buffer_2d_inst_0/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/buffer_2d_inst_0/ARESETN">
+      <obj_property name="ElementShortName">ARESETN</obj_property>
+      <obj_property name="ObjectShortName">ARESETN</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group364">
+      <obj_property name="label">buff 2d 0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/buffer_2d_inst_0/packed_in">
+         <obj_property name="ElementShortName">packed_in[71:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_in[71:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/buffer_2d_inst_0/packed_out">
+         <obj_property name="ElementShortName">packed_out[71:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_out[71:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/buffer_2d_inst_0/data_in">
+         <obj_property name="ElementShortName">data_in[0:2][0:2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[0:2][0:2][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/buffer_2d_inst_0/data_out">
+         <obj_property name="ElementShortName">data_out[0:2][0:2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[0:2][0:2][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group369">
+      <obj_property name="label">buff 2d 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/buffer_2d_inst/packed_in">
+         <obj_property name="ElementShortName">packed_in[71:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_in[71:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/buffer_2d_inst/packed_out">
+         <obj_property name="ElementShortName">packed_out[71:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_out[71:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/buffer_2d_inst/data_in">
+         <obj_property name="ElementShortName">data_in[0:2][0:2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[0:2][0:2][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/buffer_2d_inst/data_out">
+         <obj_property name="ElementShortName">data_out[0:2][0:2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[0:2][0:2][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group374">
+      <obj_property name="label">buff 2d 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/buffer_2d_inst_2/packed_in">
+         <obj_property name="ElementShortName">packed_in[71:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_in[71:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/buffer_2d_inst_2/packed_out">
+         <obj_property name="ElementShortName">packed_out[71:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_out[71:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/buffer_2d_inst_2/data_in">
+         <obj_property name="ElementShortName">data_in[0:2][0:2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[0:2][0:2][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/buffer_2d_inst_2/data_out">
+         <obj_property name="ElementShortName">data_out[0:2][0:2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[0:2][0:2][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group389">
+      <obj_property name="label">first add</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_add_inst_0/packed_in_0">
+         <obj_property name="ElementShortName">packed_in_0[71:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_in_0[71:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_add_inst_0/packed_in_1">
+         <obj_property name="ElementShortName">packed_in_1[71:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_in_1[71:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_add_inst_0/packed_in_2">
+         <obj_property name="ElementShortName">packed_in_2[71:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_in_2[71:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_add_inst_0/packed_out_x_0">
+         <obj_property name="ElementShortName">packed_out_x_0[47:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_out_x_0[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_add_inst_0/packed_out_x_2">
+         <obj_property name="ElementShortName">packed_out_x_2[47:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_out_x_2[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_add_inst_0/packed_out_y_0">
+         <obj_property name="ElementShortName">packed_out_y_0[47:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_out_y_0[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_add_inst_0/packed_out_y_2">
+         <obj_property name="ElementShortName">packed_out_y_2[47:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_out_y_2[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_add_inst_0/data_out_0">
+         <obj_property name="ElementShortName">data_out_0[0:2][0:2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_0[0:2][0:2][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_add_inst_0/data_out_1">
+         <obj_property name="ElementShortName">data_out_1[0:2][0:2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_1[0:2][0:2][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_add_inst_0/data_out_2">
+         <obj_property name="ElementShortName">data_out_2[0:2][0:2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_2[0:2][0:2][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_add_inst_0/p_0_sum_x">
+         <obj_property name="ElementShortName">p_0_sum_x[0:2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">p_0_sum_x[0:2][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_add_inst_0/p_2_sum_x">
+         <obj_property name="ElementShortName">p_2_sum_x[0:2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">p_2_sum_x[0:2][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_add_inst_0/p_0_sum_y">
+         <obj_property name="ElementShortName">p_0_sum_y[0:2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">p_0_sum_y[0:2][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_add_inst_0/p_2_sum_y">
+         <obj_property name="ElementShortName">p_2_sum_y[0:2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">p_2_sum_y[0:2][15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group402">
+      <obj_property name="label">sub compare</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sub_inst/packed_out_x_0">
+         <obj_property name="ElementShortName">packed_out_x_0[47:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_out_x_0[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sub_inst/packed_out_x_2">
+         <obj_property name="ElementShortName">packed_out_x_2[47:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_out_x_2[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sub_inst/packed_out_y_0">
+         <obj_property name="ElementShortName">packed_out_y_0[47:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_out_y_0[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sub_inst/packed_out_y_2">
+         <obj_property name="ElementShortName">packed_out_y_2[47:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_out_y_2[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sub_inst/packed_sum_x">
+         <obj_property name="ElementShortName">packed_sum_x[47:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_sum_x[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sub_inst/packed_sum_y">
+         <obj_property name="ElementShortName">packed_sum_y[47:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_sum_y[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sub_inst/p_0_sum_x">
+         <obj_property name="ElementShortName">p_0_sum_x[0:2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">p_0_sum_x[0:2][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sub_inst/p_2_sum_x">
+         <obj_property name="ElementShortName">p_2_sum_x[0:2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">p_2_sum_x[0:2][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sub_inst/p_0_sum_y">
+         <obj_property name="ElementShortName">p_0_sum_y[0:2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">p_0_sum_y[0:2][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sub_inst/p_2_sum_y">
+         <obj_property name="ElementShortName">p_2_sum_y[0:2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">p_2_sum_y[0:2][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sub_inst/sumX">
+         <obj_property name="ElementShortName">sumX[0:2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">sumX[0:2][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sub_inst/sumY">
+         <obj_property name="ElementShortName">sumY[0:2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">sumY[0:2][15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group409">
+      <obj_property name="label">second add</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sec_add_inst/packed_sum_x">
+         <obj_property name="ElementShortName">packed_sum_x[47:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_sum_x[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sec_add_inst/packed_sum_y">
+         <obj_property name="ElementShortName">packed_sum_y[47:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_sum_y[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sec_add_inst/packed_sum">
+         <obj_property name="ElementShortName">packed_sum[47:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_sum[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sec_add_inst/sumX">
+         <obj_property name="ElementShortName">sumX[0:2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">sumX[0:2][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sec_add_inst/sumY">
+         <obj_property name="ElementShortName">sumY[0:2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">sumY[0:2][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_sec_add_inst/sum">
+         <obj_property name="ElementShortName">sum[0:2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">sum[0:2][15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group413">
+      <obj_property name="label">filter out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_out_inst/packed_sum">
+         <obj_property name="ElementShortName">packed_sum[47:0]</obj_property>
+         <obj_property name="ObjectShortName">packed_sum[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_out_inst/M_AXIS_TDATA">
+         <obj_property name="ElementShortName">M_AXIS_TDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_TDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/sobel_tb/sobel_ref_top_inst/sobel_inst/filter_out_inst/sum">
+         <obj_property name="ElementShortName">sum[0:2][15:0]</obj_property>
+         <obj_property name="ObjectShortName">sum[0:2][15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

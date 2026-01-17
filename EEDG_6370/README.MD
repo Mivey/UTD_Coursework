@@ -1,0 +1,2 @@
+This class, taught by my current thesis advisor Dr. Schaefer, emphisized learning though weekly projects using the DE1-SoC kit, which features the intel/Altera Cyclone V SoC. This class served as an introduction to FPGA programming. 
+Also included is the final project assignment, the sobel filter, written both in SystemVerilog and C++ and done on the Digilent Arty z7 which has the Zynq 7000 series SoC. The interface for both the rtl and the hls are the same; AXI4 Streaming. Data is transferred to the kernel via the DMA IP block provided in Vivado.

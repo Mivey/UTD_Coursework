@@ -1,2 +1,1 @@
-# UTD_Coursework
-A few course projects I've done at UTD as well as a snapshot of my thesis
+Here is a selection of notible projects I have done during my time here at UTD, as well as a snapshot of my current thesis work. In each course folder, you'll find the course sylibus, as well as the project or coursework I have done though the semester. 
