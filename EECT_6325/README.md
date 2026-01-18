@@ -6,7 +6,8 @@
 This course served as a rigorous foundation in CMOS integrated circuit design, bridging the gap between transistor physics and digital system architecture. The curriculum focused on the "Logical Effort" method for delay optimization, static/dynamic logic families, and the physical realities of the manufacturing process.
 
 ## Featured Project: Standard Cell Library Design & Characterization
-**Process Node:** 65nm (Typical Educational Node)
+**Process Node:** 65nm
+
 **Tools:** Cadence Virtuoso, Cadence Innovus (P&R/Timing), Mentor Calibre (DRC/LVS)
 
 This comprehensive project simulated the full ASIC design lifecycle, moving from transistor-level schematic capture to physical layout and verification.
