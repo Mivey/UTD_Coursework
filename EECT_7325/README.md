@@ -14,5 +14,5 @@ Due to licensing constraints on automated P&R tools (Innovus), this project requ
 ### Key Technical Achievements
 * **Arithmetic Logic Architecture:** Designed and implemented a **12-bit Carry Select Adder (CSA)**, selected for its balance of speed and area compared to Ripple Carry adders.
 * **Hierarchical Layout Methodology:** Decomposed the 12-bit architecture into modular 1-bit standard cells (as seen in `carry_sel.v`) to manage complexity. This "bottom-up" approach ensured robust connectivity and Design Rule Check (DRC) compliance before top-level integration.
-* **Physical Verification:** Validated layout connectivity against the schematic using **[Assura / PVS] LVS (Layout Versus Schematic)**, ensuring atomic-level correctness for every bit-slice.
+* **Physical Verification:** Validated layout connectivity against the schematic using **Calibre LVS (Layout Versus Schematic)**, ensuring atomic-level correctness for every bit-slice.
 * **Technology Scaling Analysis:** Observed and analyzed the dramatic density scaling and parasitic implications of 7nm FinFET technology compared to legacy 65nm planar nodes.
