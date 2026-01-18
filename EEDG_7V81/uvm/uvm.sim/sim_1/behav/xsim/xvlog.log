@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/Projects/Vivado/uvm/uvm.srcs/sim_1/imports/uvmsrcs_salu/tb.svh" into library xil_defaultlib
+ERROR: [VRFC 10-2989] 'ap_imp' is not declared [../../../../uvm.srcs/sim_1/imports/uvmsrcs_salu/scoreboard.svh:13]
+ERROR: [VRFC 10-8530] interface 'salu_dut' is ignored due to previous errors [../../../../uvm.srcs/sim_1/imports/uvmsrcs_salu/interface.svh:3]
+INFO: [VRFC 10-311] analyzing module top
+ERROR: [VRFC 10-9062] illegal instantiation of class 'salu_dut' [E:/Projects/Vivado/uvm/uvm.srcs/sim_1/imports/uvmsrcs_salu/tb.svh:12]
+ERROR: [VRFC 10-8530] module 'top' is ignored due to previous errors [E:/Projects/Vivado/uvm/uvm.srcs/sim_1/imports/uvmsrcs_salu/tb.svh:9]
