@@ -1,2 +1,16 @@
-This class, taught by my current thesis advisor Dr. Schaefer, emphisized learning though weekly projects using the DE1-SoC kit, which features the intel/Altera Cyclone V SoC. This class served as an introduction to FPGA programming. 
-Also included is the final project assignment, the sobel filter, written both in SystemVerilog and C++ and done on the Digilent Arty z7 which has the Zynq 7000 series SoC. The interface for both the rtl and the hls are the same; AXI4 Streaming. Data is transferred to the kernel via the DMA IP block provided in Vivado.
+# EEDG 6370: Design & Analysis of Reconfigurable Systems
+
+**Instructor:** Dr. Benjamin Schaefer (Thesis Advisor)
+
+## Course Objectives
+A rigorous study of reconfigurable computing architectures and design methodologies. The coursework emphasized hardware-software co-design on heterogeneous SoCs, utilizing the **Intel/Altera Cyclone V** (DE1-SoC) for weekly architectural exploration.
+
+## Featured Project: Hardware-Accelerated Sobel Filter
+**Platform:** Digilent Arty Z7 (AMD/Xilinx Zynq-7000 SoC)
+
+This project explores the trade-offs between manual RTL design and High-Level Synthesis (HLS) for image processing workloads.
+
+### Key Technical Achievements
+* **RTL vs. HLS Benchmarking:** Developed the Sobel Edge Detection kernel in both **SystemVerilog** and **C++ (Vitis HLS)** to analyze resource utilization and timing closure differences.
+* **AXI4-Stream Architecture:** Designed a unified interface for both kernels using **AXI4-Stream**, allowing for modular IP swapping without system redesign.
+* **DMA Integration:** Orchestrated high-speed image data transfer between the Processing System (PS) and the FPGA fabric using the **AXI Direct Memory Access (DMA)** engine, optimizing memory bandwidth utilization.

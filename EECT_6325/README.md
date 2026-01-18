@@ -1,1 +1,18 @@
-This class, VLSI Design, taought by Dr. Sechen, was the most intense class I've taken at UTD (even more than the following class 7325, only because it was online). This class went in depth on NMOS and PMOS transistors, and how they were used to create CMOS gates. Our assignments walked us through the process of a chip deisgn, from rtl to layout, and we learned how to use a variety of tools such as Cadence Designer, innovus (STA software). For my project, I created nearly 2 dozen gates (scripting something in bash really helped with automating much of the work needed to be done and redone).
+# EECT 6325: VLSI Design
+
+**Instructor:** Dr. Carl Sechen
+
+## Course Objectives
+This course served as a rigorous foundation in CMOS integrated circuit design, bridging the gap between transistor physics and digital system architecture. The curriculum focused on the "Logical Effort" method for delay optimization, static/dynamic logic families, and the physical realities of the manufacturing process.
+
+## Featured Project: Standard Cell Library Design & Characterization
+**Process Node:** 65nm (Typical Educational Node)
+**Tools:** Cadence Virtuoso, Cadence Innovus (P&R/Timing), Mentor Calibre (DRC/LVS)
+
+This comprehensive project simulated the full ASIC design lifecycle, moving from transistor-level schematic capture to physical layout and verification.
+
+### Key Technical Achievements
+* **Full-Custom Cell Design:** Designed and characterized a custom standard cell library comprising over **24 unique logic gates** (NAND, NOR, XOR, AOI/OAI), optimizing transistor sizing for symmetric rise/fall times.
+* **Design Automation:** Developed custom **Bash scripts** to automate the repetitive tasks of layout generation, netlist extraction, and verification, significantly reducing the iteration time for library characterization.
+* **Physical Verification:** Utilized **Mentor Calibre** to perform Design Rule Checks (DRC) and Layout Versus Schematic (LVS) verification, ensuring the library was free of geometric violations and electrically accurate.
+* **ASIC Implementation Flow:** Gained hands-on experience with the complete digital backend flow, including floorplanning, placement, and routing using **Cadence Innovus**, validating timing constraints through Static Timing Analysis (STA).

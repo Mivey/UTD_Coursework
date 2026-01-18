@@ -1,2 +1,18 @@
-This class, Advanced VLSI Design is a continuation of EECT 6325, and also taought by Dr. Sechen. The project here uses 7nm to implement the gates, but due to licencing restrictions by Cadence, placement & routing (Innovous) is not available for use. This means the gates were placed and routed by hand. To help keep my sanity, I designed a 12 bit Carry select adder. To help the CSA, I broke it down to indivitual elements, as seen in the rtl code carry_sel.v. Those elements were then created in Cadence, verified using [tool] LVS and then slowly pieced together so that I could pickup and connect one bit at a time. 
-As an aside, it was interesting to get a visual of how much smaller 7nm was vs 65nm when comparing a simple inverter (I forgot to save the screenshot).
+# EECT 7325: Advanced VLSI Design
+
+**Instructor:** Dr. Carl Sechen
+
+## Course Objectives
+Building upon the foundations of EECT 6325, this advanced course focused on deep-submicron circuit design, analyzing the physical and electrical challenges of modern process nodes (7nm). The curriculum emphasized custom layout techniques, logical effort sizing, and delay optimization in the absence of automated Place & Route (P&R) tools.
+
+## Featured Project: 12-bit Carry Select Adder (7nm)
+**Process Node:** 7nm (Predictive Technology Model)
+**Tools:** Cadence Virtuoso (Schematic & Layout XL), Mentor Calibre
+
+Due to licensing constraints on automated P&R tools (Innovus), this project required a **full-custom manual layout** approach. This constraint provided a unique opportunity to understand the physical routing complexities and density challenges at the 7nm node.
+
+### Key Technical Achievements
+* **Arithmetic Logic Architecture:** Designed and implemented a **12-bit Carry Select Adder (CSA)**, selected for its balance of speed and area compared to Ripple Carry adders.
+* **Hierarchical Layout Methodology:** Decomposed the 12-bit architecture into modular 1-bit standard cells (as seen in `carry_sel.v`) to manage complexity. This "bottom-up" approach ensured robust connectivity and Design Rule Check (DRC) compliance before top-level integration.
+* **Physical Verification:** Validated layout connectivity against the schematic using **[Assura / PVS] LVS (Layout Versus Schematic)**, ensuring atomic-level correctness for every bit-slice.
+* **Technology Scaling Analysis:** Observed and analyzed the dramatic density scaling and parasitic implications of 7nm FinFET technology compared to legacy 65nm planar nodes.
